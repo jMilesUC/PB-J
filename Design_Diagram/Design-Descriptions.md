@@ -17,8 +17,6 @@ This diagram provides a basic overview of the system, identifying the main input
   - **Database**: Stores the equipment usage status.
   - **Front-End Website**: Displays the equipment availability to users.
 
-- **Lines:**
-  - Solid lines represent the flow of data between components.
 
 ---
 
@@ -35,3 +33,27 @@ This diagram elaborates on the key modules identified in D0, detailing the funct
 - **User Interface Module**: Requests and displays the current status of gym equipment to the Front-End Website, allowing users to check equipment availability.
 
 ---
+
+## Diagram D2: Detailed System Design
+
+### Description
+This diagram provides the most detailed view, including specific functions and interactions within the modules identified in D1.
+
+### Diagram Components
+- **Boxes/Figures:**
+  - **Camera Module**
+    - *Function*: Stream video.
+  - **Image Processing**
+    - *Function*: Analyze frames for the presence and position of individuals.
+  - **Machine Learning**
+    - *Function*: Determine if the equipment is used based on detected presence.
+  - **Output Detection Format**
+    - *Function*: Store equipment status (in use/free) and timestamps.
+  - **Website Interface Module**
+    - *Function*: Fetch and display current equipment status.
+  - **Website Interface Module**
+    - *Function*: Fetch and display current equipment status.
+  - **Dataset**
+    - *Function*: Contain reference Images of Humans for training.
+  - **Cloud API**
+    - *Function*: Identifies the main object in an image.
