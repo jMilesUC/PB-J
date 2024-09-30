@@ -1,4 +1,4 @@
-# Tasklist.md
+# Tasklist
 
 1. **Research machine learning models** for detecting human presence on gym equipment using image data. *(Assigned: Parker & Josh)*
 
