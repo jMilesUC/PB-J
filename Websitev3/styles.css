@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+header {
+    background-color: #3377d1;
+    padding: 20px;
+    text-align: left;
+    color: #fff;
+}
+
+h1 {
+    font-size: 24px;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.image-container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-container img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    display: block;
+    margin: 0 auto;
+}
+
+.equipment-list {
+    position: absolute;
+    bottom: 105px;
+    left: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.equipment-item {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+    color: inherit;
+    margin: 5px 0;
+}
+
+.equipment-item h2 {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.status {
+    font-weight: bold;
+}
+
+.status.available {
+    color: #4CAF50;
+}
+
+.status.occupied {
+    color: #FF0000;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+    background-color: #3377d1;
+    color: #fff;
+}
