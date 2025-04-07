@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gym Equipment Monitoring</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            padding: 15px;
+            font-size: 24px;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 20px;
+        }
+
+        .equipment-section {
+            width: 80%;
+            margin: 20px 0;
+        }
+
+        .equipment-title {
+            font-size: 22px;
+            margin-bottom: 15px;
+            font-weight: bold;
+        }
+
+        .equipment-boxes {
+            display: flex;
+            gap: 15px;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .equipment-box {
+            width: 140px;
+            height: 160px;
+            background-color: white;
+            box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-evenly;
+            border-radius: 8px;
+            font-size: 16px;
+            font-weight: bold;
+            padding: 10px;
+        }
+
+        .equipment-icon {
+            width: 50px;
+            height: 50px;
+            background-color: lightgray; /* Placeholder for icon */
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 14px;
+            color: black;
+        }
+
+        .equipment-name {
+            font-size: 14px;
+            color: gray;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            padding: 10px;
+            font-size: 14px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- API connection to get data -->
+    <script>
+        
+        async function fetchEquipmentStatus() {
+            try {
+                const response = await fetch("http://127.0.0.1:5000/api/equipment_status");
+                const data = await response.json();
+                
+                // Loop through each equipment box and update status 
+                data.forEach(equipment => {
+                    let elements = document.querySelectorAll(`.equipment-name`);
+                    elements.forEach(el => {
+                        if (el.textContent.trim() === equipment.equipment_name) {
+                            el.nextElementSibling.textContent = equipment.status; // Update status
+                        }
+                    });
+                });
+            } catch (error) {
+                console.error("Error fetching equipment status:", error);
+            }
+        }
+        
+        // Fetch data every 5 seconds
+        setInterval(fetchEquipmentStatus, 5000);
+        fetchEquipmentStatus(); // Fetch initially
+        </script>
+        
+<header>Gym Equipment Monitoring System</header>
+
+<div class="container">
+    <div class="equipment-section">
+        <div class="equipment-title">Dumbbell Bench</div>
+        <div class="equipment-boxes">
+            <div class="equipment-box">
+                <div class="equipment-icon">🏋️</div>
+                <div class="equipment-name">dumbbell_bench</div>
+                <div class="status">Open</div>
+            </div>
+            <div class="equipment-box">
+                <div class="equipment-icon">🏋️</div>
+                <div class="equipment-name">Bench 2</div>
+                <div class="status">In Use</div>
+            </div>
+            <div class="equipment-box">
+                <div class="equipment-icon">🏋️</div>
+                <div class="equipment-name">Bench 3</div>
+                <div class="status">Open</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="equipment-section">
+        <div class="equipment-title">Treadmill</div>
+        <div class="equipment-boxes">
+            <div class="equipment-box">
+                <div class="equipment-icon">🏃</div>
+                <div class="equipment-name">Treadmill</div>
+                <div class="status">Open</div>
+            </div>
+            <div class="equipment-box">
+                <div class="equipment-icon">🏃</div>
+                <div class="equipment-name">Treadmill 2</div>
+                <div class="status">In Use</div>
+            </div>
+            <div class="equipment-box">
+                <div class="equipment-icon">🏃</div>
+                <div class="equipment-name">Treadmill 3</div>
+                <div class="status">Open</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="equipment-section">
+        <div class="equipment-title">Chest Bench</div>
+        <div class="equipment-boxes">
+            <div class="equipment-box">
+                <div class="equipment-icon">💪</div>
+                <div class="equipment-name">BenchPress</div>
+                <div class="status">Open</div>
+            </div>
+            <div class="equipment-box">
+                <div class="equipment-icon">💪</div>
+                <div class="equipment-name">Chest Bench 2</div>
+                <div class="status">In Use</div>
+            </div>
+            <div class="equipment-box">
+                <div class="equipment-icon">💪</div>
+                <div class="equipment-name">Chest Bench 3</div>
+                <div class="status">Open</div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<footer>Project by Parker Manson & Josh | Senior Design 2024</footer>
+
+</body>
+</html>
