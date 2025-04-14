@@ -256,6 +256,7 @@ Our project, which uses cameras and machine learning to track gym equipment usag
 [Self-Assessment](https://github.com/jMilesUC/PB-J/blob/main/Homework-Assignments/Individual%20Capstone%20Assessment%20Parker.docx)
 
 ### Spring
+[Self-Assessment](https://github.com/jMilesUC/PB-J/blob/main/Homework-Assignments/SeniorDesign_FinalSelfAssessment_Parker.pdf)
 
 ## Josh's Self-Assessments
 ### Fall
