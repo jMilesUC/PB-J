@@ -14,13 +14,14 @@ Senior Design Project
 4. [Project Tasks and Timeline](#project-timeline-and-milestones-and-effort-matrix)  
    - [Task List](#tasklist)  
    - [Timeline](#timeline)  
-   - [Effort Matrix](#effort-matrix)  
-5. [ABET Concerns Essay](#project-constraints-summary)  
-6. [PPT Slideshow](#project-slides)  
-7. [Self-Assessment Essays](#self-assessment-essays)  
-8. [Professional Biographies](#professional-biographies)  
-9. [Budget](#budget)  
-10. [Appendix](#appendix) 
+   - [Effort Matrix](#effort-matrix)
+5. [ABET Concerns Essay](#project-constraints-summary)
+6. [Expo Poster](#expo-poster)
+7. [PPT Slideshow](#project-slides)  
+8. [Self-Assessment Essays](#self-assessment-essays)  
+9. [Professional Biographies](#professional-biographies)  
+10. [Budget](#budget)  
+11. [Appendix](#appendix) 
 
 # Team Names and Project Abstract 
 
@@ -243,6 +244,9 @@ This diagram provides the most detailed view, including specific functions and i
 # Project Constraints Summary
 
 Our project, which uses cameras and machine learning to track gym equipment usage, faces several constraints. **Legally**, recording in gyms requires compliance with privacy laws and user consent to avoid unauthorized surveillance. **Socially**, our project aims to benefit gym-goers by providing real-time equipment availability, enhancing their workout experience. **Security** concerns include protecting video data from breaches and implementing safeguards for any associated user information on our website. Lastly, **Economic** limitations mean we’re relying on personal funds, primarily for a camera and open-source software, so we’ll focus on creating a cost-effective prototype that meets these constraints.
+
+# Expo Poster
+[Poster](https://github.com/jMilesUC/PB-J/blob/main/Homework-Assignments/GEMSposter.pdf)
 
 # Project Slides
 
