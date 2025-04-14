@@ -251,18 +251,24 @@ Our project, which uses cameras and machine learning to track gym equipment usag
 
 # Self-Assessment Essays
 
-## Parker's Self-Assessment
+## Parker's Self-Assessments
+### Fall
 [Self-Assessment](https://github.com/jMilesUC/PB-J/blob/main/Homework-Assignments/Individual%20Capstone%20Assessment%20Parker.docx)
 
-## Josh's Self-Assessment
+### Spring
+
+## Josh's Self-Assessments
+### Fall
 [Self-Assessment](https://github.com/jMilesUC/PB-J/blob/main/Homework-Assignments/individualCapstoneAssessment.docx)
+
+### Spring
 
 # Professional Biographies
 
-## Parker's Professional Biography
+## Josh's Professional Biography
 [Professional Biography](https://github.com/jMilesUC/PB-J/blob/main/Homework-Assignments/Professional_Biography_Josh.md)
 
-## Josh's Professional Biography
+## Parker's Professional Biography
 [Professional Biography](https://github.com/jMilesUC/PB-J/blob/main/Homework-Assignments/Professional_Biography_Parker.md)
 
 # Budget  
