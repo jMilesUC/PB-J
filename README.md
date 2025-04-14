@@ -16,12 +16,13 @@ Senior Design Project
    - [Timeline](#timeline)  
    - [Effort Matrix](#effort-matrix)
 5. [ABET Concerns Essay](#project-constraints-summary)
-6. [Expo Poster](#expo-poster)
-7. [PPT Slideshow](#project-slides)  
-8. [Self-Assessment Essays](#self-assessment-essays)  
-9. [Professional Biographies](#professional-biographies)  
-10. [Budget](#budget)  
-11. [Appendix](#appendix) 
+6. [Test Plan](#test-plan)
+7. [Expo Poster](#expo-poster)
+8. [PPT Slideshow](#project-slides)  
+9. [Self-Assessment Essays](#self-assessment-essays)  
+10. [Professional Biographies](#professional-biographies)  
+11. [Budget](#budget)  
+12. [Appendix](#appendix) 
 
 # Team Names and Project Abstract 
 
@@ -244,6 +245,40 @@ This diagram provides the most detailed view, including specific functions and i
 # Project Constraints Summary
 
 Our project, which uses cameras and machine learning to track gym equipment usage, faces several constraints. **Legally**, recording in gyms requires compliance with privacy laws and user consent to avoid unauthorized surveillance. **Socially**, our project aims to benefit gym-goers by providing real-time equipment availability, enhancing their workout experience. **Security** concerns include protecting video data from breaches and implementing safeguards for any associated user information on our website. Lastly, **Economic** limitations mean we’re relying on personal funds, primarily for a camera and open-source software, so we’ll focus on creating a cost-effective prototype that meets these constraints.
+
+# Test Plan
+
+
+### Overall Test Strategy
+Our testing approach included both component-level and full-system testing. We tested the AI detection system using video footage of gym activity under controlled scenarios, with particular attention to accuracy, performance consistency, and database integration. The system was evaluated using both normal and abnormal cases to verify detection reliability for each equipment type and presence of people.
+
+### Precision and Recall Explanation
+We used **precision** and **recall** as key metrics to evaluate the performance of our detection model:
+
+- **Precision** measures how many of the items identified by the model were actually correct. A high precision means fewer false positives.
+- **Recall** measures how many of the actual items were successfully identified by the model. A high recall means fewer false negatives.
+
+These metrics help us understand not just how often the system gets it right, but how often it might miss or incorrectly flag detections.
+
+
+### Test Categories and Metrics
+
+| Category           | Precision | Recall  |
+|--------------------|------------|----------|
+| Person Detection   | 79.6%      | 67.5%    |
+| Dumbbell Bench     | 88.5%      | 88.2%    |
+| Treadmill          | 90.0%      | 50.0%    |
+| Chest Bench        | 90.0%      | 100%     |
+
+### Full System Testing
+In our comprehensive testing phase, we evaluated real-time video feeds and prerecorded footage with various lighting and occlusion conditions. The AI system successfully detected and updated statuses for all four monitored equipment categories (Dumbbell Bench, Treadmill, Chest Bench, and Person).
+
+**Outcome:**  
+- All 4 classes were positively identified during testing.  
+- The system demonstrated an average of ~80% success rate in detecting both equipment use and the presence of individuals.  
+- Real-time SQL updates and UI status rendering functioned reliably across test scenarios.
+
+These results show the model is suitable for live deployment and gym usage analytics.
 
 # Expo Poster
 [Poster](https://github.com/jMilesUC/PB-J/blob/main/Homework-Assignments/GEMSposter.pdf)
