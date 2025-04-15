@@ -302,7 +302,7 @@ These results show the model is suitable for live deployment and gym usage analy
 [Self-Assessment](https://github.com/jMilesUC/PB-J/blob/main/Homework-Assignments/individualCapstoneAssessment.docx)
 
 ### Spring
-
+[Self-Assessment](https://github.com/jMilesUC/PB-J/blob/main/Homework-Assignments/SelfAssessmentmilesjo.pdf)
 # Professional Biographies
 
 ## Josh's Professional Biography
