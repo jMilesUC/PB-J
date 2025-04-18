@@ -19,11 +19,12 @@ Senior Design Project
 6. [Test Plan](#test-plan)
 7. [Expo Poster](#expo-poster)
 8. [Summary of Hours](#summary-of-hours)
-9. [PPT Slideshow](#project-slides)  
-10. [Self-Assessment Essays](#self-assessment-essays)  
-11. [Professional Biographies](#professional-biographies)  
-12. [Budget](#budget)  
-13. [Appendix](#appendix) 
+9. [PPT Slideshow](#project-slides)
+10. [Awards](#awards)
+11. [Self-Assessment Essays](#self-assessment-essays)  
+12. [Professional Biographies](#professional-biographies)  
+13. [Budget](#budget)  
+14. [Appendix](#appendix) 
 
 # Team Names and Project Abstract 
 
@@ -299,6 +300,12 @@ These results show the model is suitable for live deployment and gym usage analy
 [Fall Slides](https://github.com/jMilesUC/PB-J/blob/main/Homework-Assignments/senior%20design%20slide%20%231.pdf)
 [Fall Presentation Video](https://mailuc-my.sharepoint.com/personal/mansonpb_mail_uc_edu/_layouts/15/stream.aspx?id=%2Fpersonal%2Fmansonpb%5Fmail%5Fuc%5Fedu%2FDocuments%2FSenior%5FDesign%5Fassignment%5F8%2Emp4&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2Ef91b39f0%2D81a4%2D4440%2Db4f4%2D4ed3ed438336)
 [Spring Fall Slides](https://github.com/jMilesUC/PB-J/blob/main/Homework-Assignments/SpringFinalPPTPresentationGEMS.pdf)
+
+# Awards
+
+🏆 **Outstanding Senior Design Award – Computer Science Department**
+
+Our project was honored with the *Outstanding Senior Design* award for the Computer Science department, recognizing innovation, technical excellence, and impact in our final year capstone.
 
 # Self-Assessment Essays
 
