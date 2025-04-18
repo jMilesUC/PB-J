@@ -18,11 +18,12 @@ Senior Design Project
 5. [ABET Concerns Essay](#project-constraints-summary)
 6. [Test Plan](#test-plan)
 7. [Expo Poster](#expo-poster)
-8. [PPT Slideshow](#project-slides)  
-9. [Self-Assessment Essays](#self-assessment-essays)  
-10. [Professional Biographies](#professional-biographies)  
-11. [Budget](#budget)  
-12. [Appendix](#appendix) 
+8. [Summary of Hours](#summary-of-hours)
+9. [PPT Slideshow](#project-slides)  
+10. [Self-Assessment Essays](#self-assessment-essays)  
+11. [Professional Biographies](#professional-biographies)  
+12. [Budget](#budget)  
+13. [Appendix](#appendix) 
 
 # Team Names and Project Abstract 
 
@@ -283,10 +284,21 @@ These results show the model is suitable for live deployment and gym usage analy
 # Expo Poster
 [Poster](https://github.com/jMilesUC/PB-J/blob/main/Homework-Assignments/GEMSposter.pdf)
 
+# Summary of Hours
+
+## Summary of Hours
+
+| Semester     | Parker's Hours | Josh's Hours |
+|--------------|----------------|--------------|
+| Fall 2024    | 47             | 46           |
+| Spring 2025  | 50             | 51           |
+
+
 # Project Slides
 
-[Slides](https://github.com/jMilesUC/PB-J/blob/main/Homework-Assignments/senior%20design%20slide%20%231.pdf)
-[Presentation Video](https://mailuc-my.sharepoint.com/personal/mansonpb_mail_uc_edu/_layouts/15/stream.aspx?id=%2Fpersonal%2Fmansonpb%5Fmail%5Fuc%5Fedu%2FDocuments%2FSenior%5FDesign%5Fassignment%5F8%2Emp4&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2Ef91b39f0%2D81a4%2D4440%2Db4f4%2D4ed3ed438336)
+[Fall Slides](https://github.com/jMilesUC/PB-J/blob/main/Homework-Assignments/senior%20design%20slide%20%231.pdf)
+[Fall Presentation Video](https://mailuc-my.sharepoint.com/personal/mansonpb_mail_uc_edu/_layouts/15/stream.aspx?id=%2Fpersonal%2Fmansonpb%5Fmail%5Fuc%5Fedu%2FDocuments%2FSenior%5FDesign%5Fassignment%5F8%2Emp4&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2Ef91b39f0%2D81a4%2D4440%2Db4f4%2D4ed3ed438336)
+[Spring Fall Slides](https://github.com/jMilesUC/PB-J/blob/main/Homework-Assignments/SpringFinalPPTPresentationGEMS.pdf)
 
 # Self-Assessment Essays
 
