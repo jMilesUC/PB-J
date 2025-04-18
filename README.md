@@ -307,6 +307,9 @@ These results show the model is suitable for live deployment and gym usage analy
 
 Our project was honored with the *Outstanding Senior Design* award for the Computer Science department, recognizing innovation, technical excellence, and impact in our final year capstone.
 
+[AwardSeniorDesign.pdf](https://github.com/user-attachments/files/19814081/AwardSeniorDesign.pdf)
+
+
 # Self-Assessment Essays
 
 ## Parker's Self-Assessments
